@@ -1,0 +1,21 @@
+.hero-container{
+    background: url('../imagenes/FondoVerde1.png') center center/cover
+    no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+
+}
+
+.home__hero-text-wrapper{
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    max-width: 50%;
+    flex-basis: 50%;
+}
